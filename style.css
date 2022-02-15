@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(24,49,83);
+    padding-bottom: 100px;
+    
+}
+header{
+     
+    color: white;
+    padding: 20px;
+    padding-left: 40px;
+    
+    }
+    h1{
+    cursor: pointer;
+    }
+textarea{
+    max-width: 300px;
+    resize: none;
+    border: none;
+    overflow: hidden;
+     overflow-y: auto;
+     padding: 10px;
+     background-color: transparent;
+     border-bottom: 1px solid white;
+     overflow-wrap: break-word;
+    font-size: 20px;
+     color: rgb(129, 115, 115);;
+}
+textarea:focus{
+     outline:none;
+
+}
+.getval{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+     
+
+}
+i{
+    background-color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: rgb(114, 105, 105);
+    cursor: pointer;
+
+     
+}
+
+.add_text{
+    display: flex;
+    justify-content: flex-start;
+   flex-wrap: wrap;
+}
+.showval{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.text{
+     width:300px;
+    min-height: 50px;
+    border-bottom: 1px solid white; 
+     overflow-wrap: break-word;
+    padding-left:10px;
+    color: rgb(129, 115, 115);
+  font-size: 20px;
+}
+span:hover i{
+
+    color:  rgb(24,49,83);;
+}
+
+.show{
+    display:none;
+}
+
+.pencil{
+    display: none;
+}
+
+@media only screen and (max-width:460px) {
+    .text{
+        width:250px;
+         
+    }
+    
+}
+@media only screen and (max-width:441px) {
+    .text{
+        width:220px;
+         
+    }
+    i{
+        padding: 7px 15px;
+      margin-right:0px
+    }
+    .fa-solid{
+        margin-right: 2px;
+    }
+    textarea{
+         width:220px ;
+    }
+    
+}
+@media only screen and (max-width:380px) {
+    .text{
+        width:180px;
+         
+    }
+   
+    
+}
+@media only screen and (max-width:900px) {
+    .add_text{
+         justify-content: center;
+    }
+    header{
+        text-align: center;
+    }
+    
+}
