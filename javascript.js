@@ -27,7 +27,8 @@ function add(store_val=""){
         document.querySelector("textarea").placeholder="Please enter text !!!"
     }
     else {
-       
+      document.querySelector("textarea").placeholder="Enter your text"
+ 
     let add_text=document.querySelector(".add_text");
     add_text.innerHTML+=`<div class="showval">
     <div class="text">${value}</div>
